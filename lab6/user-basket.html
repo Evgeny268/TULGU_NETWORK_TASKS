@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Document</title>
+    <script src="script.js"></script>
+</head>
+<body>
+<div class="menu container">
+    <img src="img/logo.svg" width="100">
+    <ul>
+        <li><a href="index.html">Главная</a></li>
+        <li><a href="catalog.html">Каталог</a></li>
+        <li><a href="user-basket.html">Корзина</a></li>
+        <li><a href="contacts.html">Контакты</a></li>
+    </ul>
+    <hr/>
+</div>
+
+<div class="container">
+    <div class="row">
+        <p class="col-4"><b>Название товара</b></p>
+        <p class="col-2"><b>Цена</b></p>
+        <p class="col-1"><b>Кол-во</b></p>
+    </div>
+    <div class="row">
+        <div class="line col-4"></div>
+        <div class="line col-2"></div>
+        <div class="line col-1"></div>
+    </div>
+
+    <div id="basket-place">
+        <!--Тут скрипт вставит корзину-->
+    </div>
+    <div class="row">
+        <button type="button" class="col-lg-2 col-sm-12 buy-button buy-button-text" id="clear-button" style="margin-top: 20px">Очистить корзину</button>
+    </div>
+</div>
+</body>
+</html>
